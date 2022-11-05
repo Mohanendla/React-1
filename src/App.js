@@ -9,6 +9,7 @@ function App() {
       <Component1/>
      
       <Component2/>
+      <Component2/>
     </div>
   );
 }
