@@ -1,7 +1,10 @@
+import './Component2.css'
+import ChildComponent1 from './ChildComponent1/ChildComponent1';
+
 function Component2() {
   return (
     <div className="Component2">
-      <h2>Part-2</h2>
+      <h2>Component 2</h2>
       <p>
         Contrary to popular belief, Lorem Ipsum is not simply random text. It
         has roots in a piece of classical Latin literature from 45 BC, making it
@@ -16,13 +19,7 @@ function Component2() {
         Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section
         1.10.32.
       </p>
-      <p>
-        he standard chunk of Lorem Ipsum used since the 1500s is reproduced
-        below for those interested. Sections 1.10.32 and 1.10.33 from "de
-        Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact
-        original form, accompanied by English versions from the 1914 translation
-        by H. Rackham.
-      </p>
+        <ChildComponent1/>
     </div>
   );
 }

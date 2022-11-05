@@ -1,19 +1,14 @@
 import "./App.css";
-import Component1 from "./Component1";
-import Component2 from "./Component2"
-import Component3 from "./Component3";
+import Component1 from "./components/Component1/Component1";
+import Component2 from "./components/Component2/Component2";
 
 function App() {
   return (
     <div className="App">
       <h1 className="page-title"> My First React App </h1>
       <Component1/>
-     <Component3></Component3>
+     
       <Component2/>
-      <Component2/>
-      <Component1/>
-      <Component1/>
-      <Component1/>
     </div>
   );
 }

@@ -1,7 +1,9 @@
+import './Component1.css'
+
 function Component1() {
     return (
          <div className="Component1">
-          <h2>Part-1</h2>
+          <h2>Component 11</h2>
       <p>
         Contrary to popular belief, Lorem Ipsum is not simply random text. It
         has roots in a piece of classical Latin literature from 45 BC, making it
@@ -19,6 +21,7 @@ function Component1() {
       <img
         src="https://www.developeronrent.com/blogs/wp-content/uploads/2017/07/life-of-software-developer.jpg"
         alt="Developer" className="developer-img" />
+        
  </div>
     );
 }
